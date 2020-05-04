@@ -1,0 +1,175 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5% !important;
+  body {
+    font-size: 1.7rem;
+    font-family: "roboto";
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 60% !important;
+  }
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 57.5% !important;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 55% !important;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 52.5% !important;
+  }
+}
+
+.row {
+  max-width: 1500px;
+  margin: 0 auto;
+  position: relative;
+  height: inherit;
+}
+
+@media (max-width: 1700px) {
+  .row {
+    margin: 0 10rem;
+  }
+}
+@media (max-width: 850px) {
+  .row {
+    margin: 0 5rem;
+  }
+}
+@media (max-width: 425px) {
+  .row {
+    margin: 0 2.5rem;
+  }
+}
+
+.typo {
+  &__navigation {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  &__navigationMobile {
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+  }
+  &__start {
+    font-size: 12rem;
+    line-height: 13rem;
+    color: white;
+  }
+  &__leistungen {
+    color: white;
+    font-size: 5rem;
+    line-height: 6.4rem;
+  }
+  &__leistungenHeading {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  &__leistungenText {
+    color: white;
+    line-height: 2.4rem;
+  }
+  &__white {
+    color: white;
+    line-height: 2.4rem;
+    letter-spacing: 0;
+  }
+  &__whiteHeading {
+    color: white;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+  }
+  &__whiteText {
+    color: white;
+    line-height: 2.4rem;
+  }
+  &__whiteTextBold {
+    color: white;
+    line-height: 2.4rem;
+    font-weight: bold;
+  }
+  &__grey {
+    color: $grey;
+    line-height: 2.4rem;
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .typo {
+    &__start {
+      font-size: 10rem;
+      line-height: 11rem;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .typo {
+    &__start {
+      font-size: 9rem;
+      line-height: 10rem;
+    }
+    &__leistungen {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
+  }
+}
+@media (max-width: 340px) {
+  .typo {
+    &__start {
+      font-size: 8rem;
+      line-height: 9rem;
+    }
+    &__leistungen {
+      font-size: 3.5rem;
+      line-height: 4.5rem;
+    }
+    &__navigationMobile {
+      font-size: 4rem;
+    }
+  }
+}
+
+.button {
+  color: white;
+  border: solid 0.4rem white;
+  border-radius: 10rem;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  transition: all 0.4s;
+  &:hover {
+    background-color: white;
+    color: $grey;
+    cursor: pointer;
+  }
+  &__yellow {
+    color: $yellow;
+    border: solid 0.4rem $yellow;
+    &:hover {
+      background-color: $yellow;
+      color: $grey;
+      cursor: pointer;
+    }
+  }
+}

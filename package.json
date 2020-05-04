@@ -1,0 +1,23 @@
+{
+  "name": "mrwerk",
+  "version": "1.0.0",
+  "description": "Website for M&amp;R Werk",
+  "author": "Becurly",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "nuxt-leaflet": "^0.0.21",
+    "sass-loader": "^8.0.2",
+    "vue-scrollto": "^2.18.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0"
+  }
+}

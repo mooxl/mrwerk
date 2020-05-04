@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  frontend:
+    container_name: mrwerk
+    build:
+      context: .
+      dockerfile: Dockerfile
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.mrwerk.rule=Host(`testing.mr-werk-iserlohn.de`)"
+      - "traefik.http.routers.mrwerk.entrypoints=https"
+      - "traefik.http.routers.mrwerk.tls.certresolver=cloudflare"
+    networks:
+      - traefik_network
+
+networks:
+  traefik_network:
+    external: true
