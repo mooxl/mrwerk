@@ -57,30 +57,14 @@
     justify-content: space-between;
     &--element {
       text-align: center;
+      width: 25%;
       &-icon {
         width: 20%;
         margin-bottom: 2.5rem;
+        max-width: 7rem;
       }
       &-heading {
         margin-bottom: 2.5rem;
-      }
-    }
-  }
-}
-@media (max-width: 1200px) {
-  .bieten {
-    &__container {
-      &--element {
-        width: 22%;
-      }
-    }
-  }
-}
-@media (max-width: 1200px) {
-  .bieten {
-    &__container {
-      &--element {
-        width: 25%;
       }
     }
   }
@@ -103,7 +87,7 @@
     }
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .bieten {
     &__container {
       flex-wrap: wrap;
