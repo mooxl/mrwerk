@@ -52,9 +52,22 @@
           <div class="kontakt__container--right">
             <a
               href="mailto:info@mr-werk-iserlohn.de"
-              class="kontakt__container--left-wrapper button"
+              class="kontakt__container--left-wrapper button desktop"
             >
               Schreibe uns
+            </a>
+            <a
+              href="tel:+4915731839153"
+              class="kontakt__container--left-wrapper button mobile"
+            >
+              Rufe uns an
+            </a>
+            <a
+              href="https://goo.gl/maps/bexjVRnuyfR2C3Bb9"
+              target="_blank"
+              class="kontakt__container--left-wrapper button"
+            >
+              Besuche uns
             </a>
           </div>
         </div>
@@ -68,6 +81,9 @@
 }
 a {
   color: white;
+}
+.mobile {
+  display: none;
 }
 .kontakt {
   padding: 9.6rem 0;
@@ -89,7 +105,8 @@ a {
     }
     &--right {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
     }
   }
 }
@@ -119,19 +136,31 @@ a {
   }
   .kontakt {
     &__container {
+      flex-wrap: wrap;
       &--right {
-        display: none;
+        margin-top: 6rem;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
       }
     }
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
   .kontakt {
     &__container {
       flex-wrap: wrap;
       &--left,
       &--middle {
         width: 100%;
+      }
+      &--left {
         margin-bottom: 5.4rem;
       }
     }

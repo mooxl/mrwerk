@@ -1,6 +1,11 @@
 <template>
   <div class="row">
     <div class="impressum">
+      <img
+        src="~/assets/images/impressum.svg"
+        alt="Impressum"
+        class="impressum__heading"
+      />
       <h2>Angaben gem. § 5 TMG:</h2>
       <p>
         Metall & Räderwerk Iserlohn GmbH & Co. KG <br />
@@ -92,6 +97,11 @@
 <style lang="scss" scoped>
 .impressum {
   margin: 5rem 0;
+  &__heading {
+    max-height: 8.4rem;
+    text-align: left;
+    margin-bottom: 5rem;
+  }
 }
 p {
   margin: 2.5rem 0;

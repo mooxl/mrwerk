@@ -52,7 +52,8 @@
   .wir {
     flex-wrap: wrap;
     &__left {
-      display: none;
+      width: 100%;
+      height: 30vh;
     }
     &__right {
       padding: 10rem 5rem;

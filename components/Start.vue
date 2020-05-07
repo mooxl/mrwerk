@@ -29,18 +29,15 @@ export default {
             class="start__container--text typo__white"
             :style="{ width: computedWidth + 'px' }"
           >
-            Schrottentsorgung - mag für viele nur das einfache Abholen und
-            Entsorgen nicht mehr gebrauchter, wertloser Gegenstände sein. Doch
-            für uns steckt viel mehr dahinter. Wir recyceln die Rohstoffe,
-            sodass sie fachgerecht dem Wertstoffkreislauf zurückgeführt werden
-            und unsere Umwelt durch CO²-Einsparung geschützt wird. Durch den
-            Einsatz von unserem kundenorientierten Abholservice wird es Ihnen
-            ermöglicht, Schrott einfach und umweltbewusst zu entsorgen.
-            Stahlschrotte und Metalle können zu 100% wiederverwertet werden,
-            wenn diese getrennt und sortiert werden. Dadurch werden die
-            weltweiten Rohstoffvorkommen und unsere Umwelt geschont. Ihr Schrott
-            gehört noch längst nicht zum alten Eisen. Helfen Sie mit und rufen
-            Sie uns an…
+            Mit uns können sie Ihren Schrott schnell, einfach und nachhaltig
+            entsorgen. Wir bieten bei Bedarf einen Abholservice und recyceln die
+            Rohstoffe dann bei uns, sodass sie dem Wertstoffkreislauf
+            fachgerecht zurückgeführt werden und unsere Umwelt nicht unnötig
+            belasten. Stahlschrotte und Metalle können zum Beispiel zu 100%
+            wiederverwertet werden, wenn diese getrennt und sortiert werden.
+            <br /><br />
+            Rufen sie uns an, denn Ihr Schrott gehört noch längst nicht zum
+            alten Eisen!
           </p>
           <a
             v-scroll-to="'#bieten'"

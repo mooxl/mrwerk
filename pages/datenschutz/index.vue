@@ -2,7 +2,11 @@
   <div id="datenschutz">
     <div class="row">
       <div class="datenschutz">
-        <img src="" alt="" class="datenschut__image" />
+        <img
+          src="~/assets/images/datenschutz.svg"
+          alt="Datenschutz"
+          class="datenschutz__heading"
+        />
         <p>
           Wir haben diese Datenschutzerklärung verfasst, um Ihnen gemäß der
           Vorgaben der DSGVO zu erklären, welche Informationen wir sammeln, wie
@@ -187,6 +191,13 @@
 #datenschutz {
   background-color: $grey;
   padding: 5rem 0;
+}
+.datenschutz {
+  &__heading {
+    max-height: 8.4rem;
+    text-align: left;
+    margin-bottom: 5rem;
+  }
 }
 p,
 h4 {
