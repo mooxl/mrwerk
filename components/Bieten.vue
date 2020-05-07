@@ -17,10 +17,6 @@
             <h2 class="bieten__container--element-heading">
               Schrott & Altmetallhandel
             </h2>
-            <p class="bieten__container--element-text typo__grey">
-              Sie gingen weiter. Immer auf der Suche nach neuen Steinhäufchen.
-              Das zweite Türmchen stand auf der Glitzerlichtung.
-            </p>
           </div>
           <div class="bieten__container--element">
             <img
@@ -31,26 +27,17 @@
             <h2 class="bieten__container--element-heading">
               Handel mit Ersatzteilen & Kompletträdern
             </h2>
-            <p class="bieten__container--element-text typo__grey">
-              Sie gingen weiter. Immer auf der Suche nach neuen Steinhäufchen.
-              Das zweite Türmchen stand auf der Glitzerlichtung.
-            </p>
           </div>
-          <!-- <div class="bieten__container--element">
+          <div class="bieten__container--element">
             <img
-              src="~/assets/images/truck.svg"
-              alt="Truck"
+              src="~/assets/images/leaf.svg"
+              alt="Blatt"
               class="bieten__container--element-icon"
             />
             <h2 class="bieten__container--element-heading">
-              Bauschuttentsorgung
+              Nachhaltige Entsorgung & Recycling
             </h2>
-            <p class="bieten__container--element-text typo__grey">
-              Sie gingen weiter. Immer auf der Suche nach neuen Steinhäufchen.
-              Das zweite Türmchen stand auf der Glitzerlichtung. Wir sind immer
-              da.
-            </p>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
@@ -67,14 +54,11 @@
   }
   &__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     &--element {
-      width: 18%;
       text-align: center;
-      &:first-child {
-        margin-right: 20%;
-      }
       &-icon {
+        width: 20%;
         margin-bottom: 2.5rem;
       }
       &-heading {
@@ -125,7 +109,7 @@
       flex-wrap: wrap;
       &--element {
         width: 100%;
-        &:first-child {
+        &:not(:last-child) {
           margin-bottom: 5rem;
           margin-right: 0;
         }
