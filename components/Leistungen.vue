@@ -7,7 +7,7 @@
         </h2>
         <div class="leistungen__split">
           <div
-            class="leistungen__split--section leistungen__split--section-plane leistungen__split--section-big"
+            class="leistungen__split--section leistungen__split--section-ankauf leistungen__split--section-big"
           >
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
@@ -35,7 +35,7 @@
             </div>
           </div>
           <div
-            class="leistungen__split--section leistungen__split--section-containers"
+            class="leistungen__split--section leistungen__split--section-gitterboxen"
           >
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
@@ -62,7 +62,7 @@
             </p>
           </div>
           <div
-            class="leistungen__split--section leistungen__split--section-plane leistungen__split--section-big"
+            class="leistungen__split--section leistungen__split--section-verwiegung leistungen__split--section-big"
           >
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
@@ -137,6 +137,18 @@
       justify-content: flex-end;
       &-big {
         height: 50rem;
+      }
+      &-ankauf {
+        background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
+          url("~assets/images/ankauf.jpg");
+      }
+      &-gitterboxen {
+        background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
+          url("~assets/images/gitterboxen.jpg");
+      }
+      &-verwiegung {
+        background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
+          url("~assets/images/verwiegung.jpg");
       }
       &-plane {
         background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
