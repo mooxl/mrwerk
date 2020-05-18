@@ -34,8 +34,8 @@
     width: 50%;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
-      url("~assets/images/worker.jpg");
+    background-image: linear-gradient(rgba(black, 0.2), rgba(black, 0.2)),
+      url("~assets/images/teambild.jpg");
   }
   &__right {
     width: 50%;
@@ -54,6 +54,7 @@
     &__left {
       width: 100%;
       height: 30vh;
+      background-position: top;
     }
     &__right {
       padding: 10rem 5rem;

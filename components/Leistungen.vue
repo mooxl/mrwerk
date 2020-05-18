@@ -12,7 +12,7 @@
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
             >
-              Ankauf von Kupfer, Messing, VA (Edelstahl) …
+              Ankauf von Kupfer, Messing, VA (Edelstahl)
             </p>
             <div
               class="leistungen__split--section-text leistungen__split--section-text-ankauf typo__leistungenText"
@@ -53,7 +53,7 @@
         </div>
         <div class="leistungen__split">
           <div
-            class="leistungen__split--section leistungen__split--section-tools"
+            class="leistungen__split--section leistungen__split--section-abholung"
           >
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
@@ -80,7 +80,7 @@
         </div>
         <div class="leistungen__split">
           <div
-            class="leistungen__split--section  leistungen__split--section-containers leistungen__split--section-big"
+            class="leistungen__split--section  leistungen__split--section-demontage leistungen__split--section-big"
           >
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
@@ -97,7 +97,7 @@
             </p>
           </div>
           <div
-            class="leistungen__split--section leistungen__split--section-tools"
+            class="leistungen__split--section leistungen__split--section-felgen"
           >
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
@@ -150,18 +150,20 @@
         background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
           url("~assets/images/verwiegung.jpg");
       }
-      &-plane {
+      &-demontage {
         background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
-          url("~assets/images/plane.jpg");
+          url("~assets/images/worker.jpg");
       }
-      &-tools {
+      &-abholung {
         background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
-          url("~assets/images/tools.jpg");
+          url("~assets/images/abholung.jpg");
       }
-      &-containers {
+      &-felgen {
         background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)),
-          url("~assets/images/containers.jpg");
+          url("~assets/images/felgen.jpg");
+        background-position: top;
       }
+
       &-text {
         height: 0;
         overflow: hidden;

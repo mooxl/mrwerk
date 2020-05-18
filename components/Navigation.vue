@@ -34,12 +34,6 @@ export default {
           <a
             href=""
             class="navigation__links--link typo__navigation"
-            v-scroll-to="'#start'"
-            >Start</a
-          >
-          <a
-            href=""
-            class="navigation__links--link typo__navigation"
             v-scroll-to="'#bieten'"
             >Was wir bieten</a
           >
@@ -57,12 +51,6 @@ export default {
           >
         </div>
         <div class="navigation__linksMobile">
-          <a
-            class="navigation__linksMobile--link typo__navigationMobile"
-            v-scroll-to="'#start'"
-            @click="active = !active"
-            >Start</a
-          >
           <a
             class="navigation__linksMobile--link typo__navigationMobile"
             v-scroll-to="'#bieten'"

@@ -13,7 +13,7 @@
         <br />
         58636 Iserlohn
         <br />
-        Handelsregister: B 9602 <br />
+        Handelsregister: HRA 5364, <br />
         Registergericht: Amtsgericht Iserlohn
       </p>
       <h3>Vertreten durch:</h3>
@@ -29,10 +29,6 @@
         Matthias Fehr
         <br />
         Julian Vogel
-        <br />
-        Handelsregister: HRB 9602
-        <br />
-        Registergericht: Amtsgericht Iserlohn
       </p>
       <h3>Kontakt</h3>
       <p>
