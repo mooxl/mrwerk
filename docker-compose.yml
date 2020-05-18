@@ -9,7 +9,7 @@ services:
       dockerfile: Dockerfile
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.mrwerk.rule=Host(`mr-werk-iserlohn.de`) || Host(`www.mr-werk-iserlohn.de`)"
+      - "traefik.http.routers.mrwerk.rule=Host(`www.mr-werk-iserlohn.de`)"
       - "traefik.http.routers.mrwerk.entrypoints=https"
       - "traefik.http.routers.mrwerk.tls.certresolver=cloudflare"
     networks:
