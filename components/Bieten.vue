@@ -38,6 +38,16 @@
               Nachhaltige Entsorgung & Recycling
             </h2>
           </div>
+          <div class="bieten__container--element">
+            <img
+              src="~/assets/images/demontage.svg"
+              alt="Demontage"
+              class="bieten__container--element-icon"
+            />
+            <h2 class="bieten__container--element-heading">
+              Demontage
+            </h2>
+          </div>
         </div>
       </div>
     </div>
@@ -81,8 +91,9 @@
 @media (max-width: 800px) {
   .bieten {
     &__container {
+      flex-wrap: wrap;
       &--element {
-        width: 40%;
+        width: 50%;
       }
     }
   }
@@ -93,6 +104,9 @@
       flex-wrap: wrap;
       &--element {
         width: 100%;
+        &-icon {
+          max-width: 5rem;
+        }
         &:not(:last-child) {
           margin-bottom: 5rem;
           margin-right: 0;

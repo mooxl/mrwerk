@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <nuxt-link to="/impressum" class="footer__impressum typo__whiteTextBold"
-      >Impressum</nuxt-link
+      >Impressum / AGBs</nuxt-link
     >
     <img src="~/assets/images/logo.svg" class="footer__logo" />
     <nuxt-link to="/datenschutz" class="footer__datenschutz typo__whiteTextBold"
