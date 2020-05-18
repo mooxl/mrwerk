@@ -74,6 +74,10 @@ html {
     line-height: 13rem;
     color: white;
   }
+  &__bieten {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
   &__leistungen {
     color: white;
     font-size: 5rem;
@@ -129,7 +133,7 @@ html {
       font-size: 9rem;
       line-height: 10rem;
     }
-    &__leistungen {
+    &__bieten {
       font-size: 4rem;
       line-height: 5rem;
     }
@@ -141,10 +145,11 @@ html {
       font-size: 8rem;
       line-height: 9rem;
     }
-    &__leistungen {
+    &__bieten {
       font-size: 3.5rem;
       line-height: 4.5rem;
     }
+
     &__navigationMobile {
       font-size: 4rem;
     }

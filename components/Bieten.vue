@@ -14,7 +14,7 @@
               alt="Recycling"
               class="bieten__container--element-icon"
             />
-            <h2 class="bieten__container--element-heading">
+            <h2 class="bieten__container--element-heading typo__bieten">
               Schrott & Altmetallhandel
             </h2>
           </div>
@@ -24,7 +24,7 @@
               alt="Tire"
               class="bieten__container--element-icon"
             />
-            <h2 class="bieten__container--element-heading">
+            <h2 class="bieten__container--element-heading typo__bieten">
               Handel mit Ersatzteilen & Kompletträdern
             </h2>
           </div>
@@ -34,7 +34,7 @@
               alt="Blatt"
               class="bieten__container--element-icon"
             />
-            <h2 class="bieten__container--element-heading">
+            <h2 class="bieten__container--element-heading typo__bieten">
               Nachhaltige Entsorgung & Recycling
             </h2>
           </div>
@@ -44,7 +44,7 @@
               alt="Demontage"
               class="bieten__container--element-icon"
             />
-            <h2 class="bieten__container--element-heading">
+            <h2 class="bieten__container--element-heading typo__bieten">
               Demontage
             </h2>
           </div>
@@ -67,11 +67,11 @@
     justify-content: space-between;
     &--element {
       text-align: center;
-      width: 25%;
+      width: 20%;
       &-icon {
         width: 20%;
         margin-bottom: 2.5rem;
-        max-width: 7rem;
+        max-width: 5rem;
       }
       &-heading {
         margin-bottom: 2.5rem;
