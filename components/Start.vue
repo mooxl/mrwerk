@@ -33,7 +33,7 @@ export default {
             entsorgen. Wir bieten bei Bedarf einen Abholservice und recyceln die
             Rohstoffe dann bei uns, sodass sie dem Wertstoffkreislauf
             fachgerecht zurückgeführt werden und unsere Umwelt nicht unnötig
-            belasten. Stahlschrotte und Metalle können zum Beispiel zu 100%
+            belasten. Stahlschrott und Metalle können zum Beispiel zu 100%
             wiederverwertet werden, wenn diese getrennt und sortiert werden.
             <br /><br />
             Rufen sie uns an, denn Ihr Schrott gehört noch längst nicht zum
