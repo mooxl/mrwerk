@@ -1,3 +1,24 @@
+<script>
+export default {
+  head() {
+    return {
+      title: `Impressum | M&R Werk Iserlohn`,
+      meta: [
+        {
+          hid: "keywords",
+          name: "keywords",
+          content: "Impressum, Geschäftsführung, M&R Werk Iserlohn"
+        },
+        {
+          hid: "description",
+          name: "description",
+          content: "Hier finden Sie unsere Daten | M&R Werk Iserlohn"
+        }
+      ]
+    };
+  }
+};
+</script>
 <template>
   <div class="row">
     <div class="impressum">

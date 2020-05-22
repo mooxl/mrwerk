@@ -1,3 +1,25 @@
+<script>
+export default {
+  head() {
+    return {
+      title: `AGB und Datenschutz | M&R Werk Iserlohn`,
+      meta: [
+        {
+          hid: "keywords",
+          name: "keywords",
+          content: "Datenschutz, AGB, M&R Werk Iserlohn"
+        },
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Allgemeine Geschäftsbedingungen, Datenschutz und Nutzungsbedingungen bei M&R Werk Iserlohn "
+        }
+      ]
+    };
+  }
+};
+</script>
 <template>
   <div id="datenschutz">
     <div class="row">
