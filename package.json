@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.3.0",
     "node-sass": "^4.14.1",
     "nuxt": "^2.0.0",
     "nuxt-leaflet": "^0.0.21",

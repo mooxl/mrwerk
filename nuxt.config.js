@@ -50,7 +50,8 @@ export default {
         /* module options */
       }
     ],
-    ["vue-scrollto/nuxt", { duration: 600, easing: "ease-in" }]
+    ["vue-scrollto/nuxt", { duration: 600, easing: "ease-in" }],
+    "@nuxtjs/sitemap"
   ],
   /*
    ** Loading SCSS globally
