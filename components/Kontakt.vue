@@ -29,7 +29,7 @@
           </div>
           <div class="kontakt__container--middle">
             <div class="kontakt__container--left-wrapper information">
-              <h2 class="information__heading typo__whiteHeading">Mobile</h2>
+              <h2 class="information__heading typo__whiteHeading">Mobil</h2>
               <p class="information__text typo__whiteText">
                 Vogel: <a href="tel:+49157318391 53">+49 157 31 83 91 53</a>
                 <br />

@@ -45,8 +45,8 @@
             <p
               class="leistungen__split--section-text leistungen__split--section-text-aufstellung typo__leistungenText"
             >
-              Sie haben wenig Platz oder benötigen mobile Schrottcontainers in
-              Ihrem Betrieb. Wir haben die Lösung! Wir stellen Ihnen unsere
+              Sie haben wenig Platz oder benötigen mobile Schrottcontainer in
+              Ihrem Betrieb? Wir haben die Lösung! Wir stellen Ihnen unsere
               Gitterboxen zur Verfügung und tauschen diese auf Abruf.
             </p>
           </div>

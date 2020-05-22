@@ -29,14 +29,14 @@ export default {
             class="start__container--text typo__white"
             :style="{ width: computedWidth + 'px' }"
           >
-            Mit uns können sie Ihren Schrott schnell, einfach und nachhaltig
+            Mit uns können Sie Ihren Schrott schnell, einfach und nachhaltig
             entsorgen. Wir bieten bei Bedarf einen Abholservice und recyceln die
             Rohstoffe dann bei uns, sodass sie dem Wertstoffkreislauf
             fachgerecht zurückgeführt werden und unsere Umwelt nicht unnötig
             belasten. Stahlschrott und Metalle können zum Beispiel zu 100%
             wiederverwertet werden, wenn diese getrennt und sortiert werden.
             <br /><br />
-            Rufen sie uns an, denn Ihr Schrott gehört noch längst nicht zum
+            Rufen Sie uns an, denn Ihr Schrott gehört noch längst nicht zum
             alten Eisen!
           </p>
           <a
