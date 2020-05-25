@@ -50,9 +50,9 @@ export default {
     [
       "nuxt-matomo",
       {
-        consentRequired: true,
         matomoUrl: "//matomo.becurly.de/",
-        siteId: 2
+        siteId: 2,
+        consentRequired: true
       }
     ],
     "@nuxtjs/sitemap"
