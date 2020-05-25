@@ -108,6 +108,53 @@ export default {
         entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
         wir derartige Inhalte umgehend entfernen.
       </p>
+      <h3>Links zu den verwendeten Icons & Bilder</h3>
+      <br />
+      <h4>Icons</h4>
+      <p>
+        Wrench:
+        <a href="https://www.flaticon.com/authors/kiranshastry"
+          >https://www.flaticon.com/authors/kiranshastry</a
+        >
+        <br />
+        Screwdriver:
+        <a href="https://www.flaticon.com/authors/pixel-perfect"
+          >https://www.flaticon.com/authors/pixel-perfect</a
+        >
+        <br />
+        Recycling:
+        <a href="https://www.flaticon.com/authors/vitaly-gorbachev"
+          >https://www.flaticon.com/authors/vitaly-gorbachev</a
+        >
+        <br />
+        Tire:
+        <a href="https://www.flaticon.com/authors/fjstudio"
+          >https://www.flaticon.com/authors/fjstudio</a
+        >
+        <br />
+        Leaf:
+        <a href="https://www.flaticon.com/authors/pixel-perfect"
+          >https://www.flaticon.com/authors/pixel-perfect</a
+        >
+        <br />
+        Demontage:
+        <a href="https://www.flaticon.com/authors/freepik"
+          >https://www.flaticon.com/authors/freepik</a
+        >
+      </p>
+      <h4>Bilder</h4>
+      <p>
+        Arbeiter:
+        <a href="https://unsplash.com/photos/l7LmUdkrANQ"
+          >https://unsplash.com/photos/l7LmUdkrANQ</a
+        >
+        <br />
+        Schrott:
+        <a href="https://unsplash.com/photos/GFt6VfdVdbk"
+          >https://unsplash.com/photos/GFt6VfdVdbk</a
+        >
+        <br /><br />
+      </p>
     </div>
     <div class="agb">
       <img src="~/assets/images/agb.svg" alt="AGB" class="impressum__heading" />
@@ -278,6 +325,10 @@ export default {
   </div>
 </template>
 <style lang="scss" scoped>
+a {
+  color: $grey;
+  text-decoration: underline;
+}
 .impressum {
   margin: 5rem 0;
   &__heading {
