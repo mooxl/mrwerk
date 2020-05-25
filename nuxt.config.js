@@ -45,14 +45,17 @@ export default {
    */
   modules: [
     "@nuxtjs/style-resources",
+    ["nuxt-leaflet", {}],
+    ["vue-scrollto/nuxt", { duration: 600, easing: "ease-in" }],
     [
-      "nuxt-leaflet",
+      "nuxt-matomo",
       {
-        /* module options */
+        consentRequired: true,
+        matomoUrl: "//matomo.becurly.de/",
+        siteId: 2,
+        debug: true
       }
     ],
-    ["vue-scrollto/nuxt", { duration: 600, easing: "ease-in" }],
-    ["nuxt-matomo", { matomoUrl: "//matomo.becurly.de/", siteId: 2 }],
     "@nuxtjs/sitemap"
   ],
   /*
