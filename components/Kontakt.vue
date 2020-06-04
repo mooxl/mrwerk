@@ -10,7 +10,9 @@
         <div class="kontakt__container">
           <div class="kontakt__container--left">
             <div class="kontakt__container--left-wrapper information">
-              <h2 class="information__heading typo__whiteHeading">Adresse</h2>
+              <h2 class="information__heading typo__whiteHeading">
+                Büroadresse
+              </h2>
               <p class="information__text typo__whiteText">
                 Metall- & Räderwerk Iserlohn GmbH & Co. KG <br />
                 Corunnastraße 1 <br />
@@ -31,9 +33,9 @@
             <div class="kontakt__container--left-wrapper information">
               <h2 class="information__heading typo__whiteHeading">Mobil</h2>
               <p class="information__text typo__whiteText">
-                Vogel: <a href="tel:+49157318391 53">+49 157 31 83 91 53</a>
+                J. Vogel: <a href="tel:+49157318391 53">+49 157 31 83 91 53</a>
                 <br />
-                Fehr: <a href="tel:+4917696989995">+49 176 96 98 99 95</a>
+                M. Fehr: <a href="tel:+4917696989995">+49 176 96 98 99 95</a>
               </p>
             </div>
             <div class="kontakt__container--left-wrapper information">
@@ -54,20 +56,20 @@
               href="mailto:info@mr-werk-iserlohn.de"
               class="kontakt__container--left-wrapper button desktop"
             >
-              Schreibe uns
+              Schreiben Sie uns
             </a>
             <a
               href="tel:+4915731839153"
               class="kontakt__container--left-wrapper button mobile"
             >
-              Rufe uns an
+              Rufen Sie uns an
             </a>
             <a
               href="https://goo.gl/maps/bexjVRnuyfR2C3Bb9"
               target="_blank"
               class="kontakt__container--left-wrapper button"
             >
-              Besuche uns
+              Besuchen Sie uns
             </a>
           </div>
         </div>
@@ -128,7 +130,7 @@ a {
     }
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 950px) {
   .information {
     &__mobile {
       display: block;
@@ -146,7 +148,7 @@ a {
     }
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .mobile {
     display: block;
   }

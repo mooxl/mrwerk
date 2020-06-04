@@ -80,7 +80,30 @@
         </div>
         <div class="leistungen__split">
           <div
-            class="leistungen__split--section  leistungen__split--section-demontage leistungen__split--section-big"
+            class="leistungen__split--section leistungen__split--section-felgen leistungen__split--section-big"
+          >
+            <p
+              class="leistungen__split--section-heading typo__leistungenHeading"
+            >
+              An-/Verkauf von Felgen, Kompletträdern und Ersatzteilen
+            </p>
+            <p
+              class="leistungen__split--section-text leistungen__split--section-text-felgen typo__leistungenText"
+            >
+              Sie suchen nach Ersatzteilen oder Räder für Ihr Fahrzeug? Wir
+              freuen uns auf Ihren Besuch in unserem Onlineshop mit einem stetig
+              wachsenden Angebot.
+              <br />
+              <br />
+              <a
+                class="button"
+                href="https://www.ebay-kleinanzeigen.de/pro/MR-Werk-Iserlohn"
+                >Besuchen Sie uns</a
+              >
+            </p>
+          </div>
+          <div
+            class="leistungen__split--section  leistungen__split--section-demontage"
           >
             <p
               class="leistungen__split--section-heading typo__leistungenHeading"
@@ -94,15 +117,6 @@
               Maschine die entsorgt und demontiert werden soll? Wir unterbreiten
               Ihnen gerne ein Angebot für die Demontage. Setzen Sie sich gerne
               mit uns in Verbindung.
-            </p>
-          </div>
-          <div
-            class="leistungen__split--section leistungen__split--section-felgen"
-          >
-            <p
-              class="leistungen__split--section-heading typo__leistungenHeading"
-            >
-              An-/Verkauf von Felgen, Kompletträdern und Ersatzteilen
             </p>
           </div>
         </div>
@@ -186,6 +200,9 @@
           &-verwiegung {
             height: 12rem;
           }
+          &-felgen {
+            height: 17rem;
+          }
         }
       }
     }
@@ -233,6 +250,9 @@
             &-verwiegung {
               height: 16rem;
             }
+            &-felgen {
+              height: 20rem;
+            }
           }
         }
       }
@@ -256,6 +276,9 @@
             }
             &-verwiegung {
               height: 17rem;
+            }
+            &-felgen {
+              height: 25rem;
             }
           }
         }
@@ -282,10 +305,16 @@
             &-verwiegung {
               height: 20rem;
             }
+            &-felgen {
+              height: 26rem;
+            }
           }
         }
       }
     }
+  }
+  .button {
+    padding: 1rem 2rem;
   }
 }
 @media (max-width: 900px) {
@@ -308,6 +337,9 @@
           opacity: 1;
           margin-top: 2rem;
           text-align: center;
+          &-felgen {
+            padding-bottom: 2rem;
+          }
         }
         &:hover {
           .leistungen__split--section-text {
@@ -323,6 +355,9 @@
               height: auto;
             }
             &-verwiegung {
+              height: auto;
+            }
+            &-felgen {
               height: auto;
             }
           }
