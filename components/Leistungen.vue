@@ -97,6 +97,7 @@
               <br />
               <a
                 class="button"
+                target="_blank"
                 href="https://www.ebay-kleinanzeigen.de/pro/MR-Werk-Iserlohn"
                 >Besuchen Sie uns</a
               >
