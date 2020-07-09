@@ -52,7 +52,7 @@ export default {
       {
         matomoUrl: "//matomo.becurly.de/",
         siteId: 2,
-        consentRequired: true
+        cookies: false
       }
     ],
     "@nuxtjs/sitemap"
