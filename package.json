@@ -11,13 +11,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/sitemap": "^2.3.0",
-    "node-sass": "^4.14.1",
-    "nuxt": "^2.0.0",
-    "nuxt-leaflet": "^0.0.21",
-    "nuxt-matomo": "^1.2.3",
-    "sass-loader": "^8.0.2",
-    "vue-scrollto": "^2.18.1"
+    "@nuxtjs/sitemap": "2.4.0",
+    "node-sass": "5.0.0",
+    "nuxt": "2.14.12",
+    "nuxt-leaflet": "0.0.25",
+    "nuxt-matomo": "1.2.3",
+    "sass-loader": "10.1.1",
+    "vue-scrollto": "2.20.0"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0"
