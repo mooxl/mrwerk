@@ -57,6 +57,9 @@ export default {
     ],
     "@nuxtjs/sitemap"
   ],
+  sitemap: {
+    hostname: "https://www.mr-werk-iserlohn.de/"
+  },
   /*
    ** Loading SCSS globally
    */
