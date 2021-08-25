@@ -7,9 +7,6 @@
     <nuxt-link to="/datenschutz" class="footer__datenschutz typo__whiteTextBold"
       >Datenschutz</nuxt-link
     >
-    <a class="becurly" target="_blank" href="https://www.becurly.de"
-      >Made by Becurly</a
-    >
   </div>
 </template>
 .<style lang="scss" scoped>
