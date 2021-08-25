@@ -22,7 +22,15 @@ export default {
           "Das M&R Werk Iserlohn bietet den Komplettservice im Bereich Schrott & Altmetall Handel. Wir holen deinen Schrott ab und recyclen in fachgerecht und nachhaltig. Das beinhaltet auch die Demontage, sowie die Verwiegung von Metallen vor Ort. Alternativ bieten wir für deinen Schrott  mobile Gitterboxen die auf Abruf von uns getauscht werden. Ruf uns unverbindlich an und lass dich beraten! Dein Schrott gehört noch lange nicht zum alten Eisen!"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    script: [
+      {
+        src: "https://umami.mediaatrium.de/umami.js",
+        "data-website-id": "4d5aefd2-dc46-4a55-bde3-c29a60f13e81",
+        async: true,
+        defer: true
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -47,14 +55,6 @@ export default {
     "@nuxtjs/style-resources",
     ["nuxt-leaflet", {}],
     ["vue-scrollto/nuxt", { duration: 600, easing: "ease-in" }],
-    [
-      "nuxt-matomo",
-      {
-        matomoUrl: "//matomo.becurly.de/",
-        siteId: 2,
-        cookies: false
-      }
-    ],
     "@nuxtjs/sitemap"
   ],
   sitemap: {
