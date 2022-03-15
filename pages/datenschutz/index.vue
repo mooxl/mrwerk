@@ -150,60 +150,15 @@ export default {
           Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim nächsten
           Besuch wiederzuerkennen.
         </p>
-        <h3>Cloudflare Datenschutzerklärung</h3>
         <p>
-          Wir verwenden auf dieser Website Cloudflare der Firma Cloudflare, Inc.
-          (101 Townsend St., San Francisco, CA 94107, USA) um die Website
-          schneller und sicherer zu machen. Dabei verwendet Cloudflare Cookies
-          und verarbeitet Besucherdaten über die wir Sie im Folgenden
-          informieren. <br /><br />
-          Der Cookie von Cloudflare (__cfduid) wird verwendet, um einzelne
-          Besucher hinter einer gemeinsam genutzten IP-Adresse zu identifizieren
-          und Sicherheitseinstellungen für jeden einzelnen Besucher anzuwenden.
-          Wenn sich ein Besucher dieser Website zum Beispiel in einem Lokal
-          befindet, in dem sich eine Reihe infizierter Computer befinden, aber
-          der Computer des bestimmten Besuchers vertrauenswürdig ist, können wir
-          dies anhand des Cookies erkennen. Der Cookie entspricht keiner
-          Benutzer-ID und speichert keine personenbezogenen Daten.Dieser Cookie
-          ist für die Cloudflare-Sicherheitsfunktionen unbedingt erforderlich
-          und kann nicht deaktiviert werden.
-        </p>
-        <h3>Cookies von Cloudflare</h3>
-        <h4>__cfduid</h4>
-        <ul>
-          <li>Ablaufzeit: 1 Jahr</li>
-          <li>
-            Verwendung: Sicherheitseinstellungen für jeden einzelnen Besucher
-          </li>
-          <li>Beispielhafter Wert: d798bf7df9c1ad5b7583eda5cc5e78211071587</li>
-        </ul>
-        <p>
-          Cloudflare bietet Web-Optimierung und Sicherheitsdienste, um Websites
-          zu verbessern und zu schützen. Dazu gehören ein Reverse-Proxy, ein
-          Passthrough-Sicherheitsdienst und ein Content-Verteilungsnetzwerk.
-          Cloudflare erfasst Informationen der Webseitebesucher. Diese
-          Information kann IP-Adressen, Systemkonfigurationsinformationen und
-          andere Informationen über den Verkehr von und zur Website umfassen,
-          ist aber nicht darauf beschränkt. Cloudflare erfasst und verwendet
-          Logdaten, um ihre Dienstleistungen gemäß der Kundenvereinbarungen zu
-          betreiben, zu warten und zu verbessern. Zum Beispiel können Logdaten
-          Cloudflare dabei helfen, neue Bedrohungen zu erkennen, böswillige
-          Dritte zu identifizieren und dieser Website einen stabileren
-          Sicherheitsschutz zu bieten. <br /><br />
-          Cloudflare ist aktiver Teilnehmer beim EU-U.S. Privacy Shield
-          Framework wodurch der korrekte und sichere Datentransfer persönlicher
-          Daten geregelt wird. Mehr Informationen dazu finden Sie auf
+          Quelle: Erstellt mit dem "
           <a
-            target="_blank"
-            href="https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0"
-            >https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0</a
+            href="https://www.adsimple.de/datenschutz-generator/"
+            title="Datenschutz Generator von AdSimple für Deutschland"
           >
-          .Mehr Informationen zum Datenschutz bei Cloudflare finden Sie auf
-          <a
-            target="_blank"
-            href="https://www.cloudflare.com/de-de/privacypolicy/"
-            >https://www.cloudflare.com/de-de/privacypolicy/</a
-          >.
+            Datenschutz Generator
+          </a>
+          " von AdSimple
         </p>
       </div>
     </div>
